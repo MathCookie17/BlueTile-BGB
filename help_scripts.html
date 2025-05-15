@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BGB Scripting Help</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Handjet:wght@100..900&family=Iceberg&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #b6d3ff;
+      font-family: "VT323", monospace;
+      font-size: 18px;
+      margin: 0;
+      padding: 10vw;
+      color: #222;
+    }
+
+    .container {
+      margin: auto;
+      padding: 5vw;
+    }
+
+    h1 {
+      font-family: "Pixelify Sans", sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: "Geo", sans-serif;
+      font-size: 2rem;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 4px;
+    }
+
+    p, ul {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+      margin: auto;
+      object-fit: contain;
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border: 2px dashed #777;
+      background-color: #ccc;
+    }
+
+    .caption {
+      font-style: italic;
+      text-align: center;
+      font-size: 0.95rem;
+      margin-top: 8px;
+      margin-bottom: 30px;
+    }
+
+    .iceberg-regular {
+      font-family: "Iceberg", sans-serif;
+    }
+    .image-wrapper {
+  margin: auto;
+  width: 100%;
+  height: 400px; /* Increased height */
+  overflow: hidden;
+}
+
+
+.image-wrapper {
+  width: 70vw;
+  height: 43.75vw;
+  aspect-ratio: 1.6; /* Maintains 2880x1800 ratio */
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  overflow:hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  display: block;
+}
+.caption {
+  font-style: italic;
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.center {
+    margin: auto;
+    text-align:center;
+}
+.home-top-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #e0e0ff;
+  border: 2px solid #555;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+  font-family: "Geo", sans-serif;
+  z-index: 1000;
+  box-shadow: 2px 2px #999;
+}
+.home-top-btn:hover {
+  background-color: #c0c0ff;
+}
+
+.home-cta-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home-cta-btn {
+  padding: 12px 24px;
+  background-color: #001f4d;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Pixelify Sans", sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 4px 4px #444;
+  transition: transform 0.2s ease;
+}
+.home-cta-btn:hover {
+  transform: scale(1.05);
+  background-color: #003399;
+}
+
+
+
+  </style>
+</head>
+<body>
+    <a href="help.html" class="home-top-btn">Back to Main Help Screen</a>
+
+  <div class="container">
+    <h1 style="font-size: 3rem;">Scripting Rules</h1>
+
+    <p class = 'center'><span >
+      The main thing that sets this program apart from other board game simulators is that it enforces the rules of the games you make...
+      but that means you have to make those rules first! <em>Scripting rules</em> are how you create the rules of games... so how do they work, exactly?
+    </span></p>
+
+    <div class="image-wrapper">
+      <img src="images/help/script example.png" alt="Scripting Form Screenshot">
+    </div>
+    <div class="caption">A simple example script.</div>
+
+    <h2>Basics</h2>
+    <p>Scripting rules aren't quite a programming language, but they do have some things in common with one - they're more like Scratch-style block coding than a "real" programming language.</p>
+    <p>
+      A scripting rule has a <strong>type</strong>, which determines what that rule does. Many types of scripting rules also have <strong>arguments</strong>, which are often themselves scripting rules,
+      which means that a complete scripting rule likely consists of a lot of nested scripting rules.
+    </p>
+    <p>
+      Individual pieces or types do not contain scripting rules. <em>Types</em> of pieces and tiles are what have scripting rules, and then those
+      types can be assigned to individual pieces and tiles.
+    </p>
+    <p>
+      The outermost scripting rule, the one that's directly contained in a type, in a button, or in the global scripts list, also has a <strong>trigger</strong>
+      that determines when the rule will be run.
+    </p>
+    <p>
+      Some scripting rule types perform actions, while others return values. The types of things that value-returning ones can return
+      include <strong>numbers</strong>, <strong>booleans</strong> (a true or false value), <strong>strings</strong> of letters,
+      <strong>objects</strong> like pieces and tiles, <strong>object types</strong> like piece types and tile types,
+      and <strong>arrays</strong> of any of the above.
+    </p>
+    <p>
+      The scripting rule types that perform actions technically return the boolean value <em>true</em> after performing their action,
+      and indeed an outermost scripting rule <em>should</em> return a boolean. These booleans are used to assess whether an action
+      in the game was valid or not: if, when a player performs an action, any of the scripting rules triggered by that action
+      return <em>false</em>, that action was not valid, and that action does not occur.
+    </p>
+
+    <h1>Scripting Rule Types</h1>
+
+    <h2>Fundamental Types</h2>
+    <p>The most important types of scripting rules are probably <strong>Value</strong>, <strong>if-then-else</strong>, and <strong>Run Multiple Scripts</strong>.</p>
+    <p>
+      A <strong>Value</strong> script returns a set value. This value can be either a number, a boolean, or a string. If the value is a number
+      or a string, a textbox is provided to change what that value is. If the value is a boolean, you can click the green box around that value
+      to switch it between true or false. Since the arguments to most scripting rules will themselves be scripting rules, Value scripting rules
+      are often the ones at the bottom layers.
+    </p>
+    <p>
+      An <strong>if-then-else</strong> script has three arguments. The first argument is the <em>if</em> argument, which should return a boolean.
+      When an if-then-else script is run, if the boolean check performed by the <em>if</em> argument returns <em>true</em>, then
+      the <em>then</em> script is run. If the <em>if</em> check returns false, then the <em>else</em> script is run.
+      The <em>then</em> and <em>else</em> arguments do not have restrictions on what they should do - sometimes you'll want to use them to perform
+      a different action based on the <em>if</em> check, sometimes you'll want to use them to return different values based on the <em>if</em>
+      check. If you want to check more than one condition and have more than two options on which script to run,
+      you'll want to nest additional if-then-else scripts inside the <em>then</em> and/or <em>else</em> arguments.
+    </p>
+    <p>
+      Most scripting rule types have a fixed number of arguments, leaving you with limited room to perform a series of actions
+      all in a row. This is what the <strong>Run Multiple Scripts</strong> type is for: you can add as many scripting rules to
+      the arguments of a Run Multiple Scripts script as you wish, and the Run Multiple Scripts script will run each of its
+      argument scripts in order, returning whatever value that the last of its argument scripts returns.
+    </p>
+
+    <h2>Reporter Types</h2>
+    <p>These types of scripting rules return data of objects or of the game in general; I'm covering this group first because it provides context for the following groups.</p>
+    <ul>
+      <li>
+        The <strong>X Coordinate</strong> and <strong>Y Coordinate</strong> types report the coordinates of an object on the board.
+        In this program, positive X is right, positive Y is down. These script types, and a few others, have the object they're
+        looking at default to being the "caller", which is the piece or tile that called this script from its piece type or tile
+        type, but this can be changed to have them report the coordinates (or other data) of a different object.
+      </li>
+      <li>
+        <strong>Object Types</strong> returns an array of all of the types that the given object has.
+      </li>
+      <li>
+        <strong>Piece Owner</strong> returns the player number that that piece is considered "owned" by.
+        This ownership ID number doesn't have any inherent effects, it only does something if you
+        include scripts that check it.
+      </li>
+      <li>
+        The turn number begins at Turn #1 and increases by 1 whenever a full rotation of player turns wraps back around
+        to player 1, and the <strong>Turn Number</strong> script type just returns whatever the turn number is.
+        Likewise, the <strong>Player Turn</strong> script returns the player number whose turn it is, and the
+        <strong>Turn Phase</strong> script returns the current "turn phase", a number which has no inherent effects
+        but could be quite useful to incorporate into the rules for your game.
+      </li>
+      <li>
+        <strong>Board Width</strong> and <strong>Board Height</strong> return the dimensions of the board.
+        These types are useful when looping over tiles.
+      </li>
+      <li>
+        <strong>Tile at Coordinates</strong> takes two numbers as arguments and returns the tile at those coordinates.
+        <strong>Tile Here</strong> returns whatever tile the piece is currently on if a piece called it, while if a tile
+        called it then it just returns the tile itself.
+      </li>
+      <li>
+        <strong>Pieces on Tile</strong> returns an array of all of the pieces on a given tile. If the script was called
+        by a piece, that piece is forced to the front of the array.
+      </li>
+      <li>
+        <strong>All Pieces</strong> returns an array of all of the pieces on the board as a whole.
+        If the script was called by a piece, that piece is forced to the front of the array.
+        <strong>All Tiles</strong> returns an array of all tiles on the board, sorted in reading order (left to right,
+        top to bottom).
+      </li>
+      <li>
+        Each piece and tile has a unique object ID number, and a <strong>Object ID</strong> script
+        returns the ID of a given object. I'm not sure what use this has, but perhaps you'll find a way to use it in
+        a game?
+      </li>
+      <li>
+        The <strong>Caller</strong> script returns whatever object called this scripting rule.
+      </li>
+      <li>
+        <strong>New Piece Sprite</strong> and <strong>New Tile Sprite</strong> create new sprites. Currently, the only
+        scripting rule types that use sprites are Add Piece, Change Piece Sprite, and Change Tile Sprite.
+      </li>
+      <li>
+        <strong>Choose Piece Type</strong> and <strong>Choose Tile Type</strong> return a specific piece type or tile
+        type.
+      </li>
+      <li>
+        There is an array of objects that are considered "selected"; at the start of each turn, this array is reset to be empty.
+        <strong>Selected Objects</strong> returns this array of selected objects.
+      </li>
+    </ul>
+
+    <h2>Action Types</h2>
+    <p>These types of scripting rules perform actions that change the state of the game, such as moving pieces or progressing the turn order.</p>
+    <ul>
+      <li>
+        <strong>Remove Piece</strong>: Removes this piece from the board.
+        As of the current version of this project, pieces only exist on the board, so this removes this piece from the game entirely.
+        This script type, along with other ones that mention pieces, only work if they're called by a piece (i.e. the script's owner is a piece type).
+      </li>
+      <li>
+        There are two script types that change a piece's position. <strong>Move Piece</strong>'s
+        arguments are the amount that that piece's X and Y coordinates will <em>change</em> by
+        (keep in mind that positive X is right, positive Y is down),
+        <strong>Move Piece to Coordinates</strong>'s arguments are what that piece's X and Y coordinates will
+        be <em>set</em> to.
+      </li>
+      <li>
+        <strong>Change Piece Owner</strong> changes what player number that piece is considered "owned" by.
+      </li>
+      <li>
+        <strong>Add Type</strong> adds a particular piece type to a piece or a tile type to a tile, if that object does not
+        already have that type. Normally that type is added to the end of its array of types, but you can set the <em>index</em>
+        argument to a nonnegative whole number to have it inserted at that index of the array instead (more about arrays later).
+      </li>
+      <li>
+        <strong>Remove Type</strong> removes a type from a piece or tile if it has that type.
+      </li>
+      <li>
+        <strong>Add Piece</strong> adds a new piece to the board. The arguments of this script type are the array of types
+        that new piece will have, the coordinates on the board that that piece will be placed at, the owner player number
+        of that piece, and the sprite the piece will have.
+      </li>
+      <li>
+        <strong>Change Turn Phase</strong> updates the turn phase to a new number, or to the end of the turn.
+        <strong>Using a Change Turn Phase script with the "End Turn" setting is the only way to progress to the next player's turn.</strong>
+        (Note: If you use a Turn Phase script after a turn has ended but before the next one starts, the turn phase will be considered to be Infinity)
+      </li>
+      <li>
+        <strong>End Game</strong> ends the game; its argument is the player number of the winner of the game. If this
+        <em>winner</em> argument is not a positive whole number, the game is considered a draw.
+      </li>
+      <li>
+        <strong>Change Piece Sprite</strong> and <strong>Change Tile Sprite</strong> change the sprite of that object
+        to the new sprite specified in the arguments to the scripting rule.
+      </li>
+      <li>
+        <strong>Select Object</strong> adds an object to the end of the selected objects array if it's not already in the selected objects array,
+        <strong>Deselect Object</strong> removes an object from the selected objects array if it is in the selected objects array, and
+        <strong>Clear Selected Objects</strong> resets the selected objects array to be empty.
+      </li>
+    </ul>
+    <p>
+      Unlike Reporter scripts, Action scripts don't by default let you change what object they refer to,
+      they always perform their actions on the piece or tile that called them. If you wish to change this,
+      such as having a script called by one piece cause a different piece to be removed, the
+      <strong>Have Another Object run a Script</strong> type lets you specify an object and then run a script as if
+      that other object is the one running it.
+    </p>
+
+    <h2>Operator Types</h2>
+    <p>These scripting rules perform operations on values, such as checking for equality or doing basic math.</p>
+    <ul>
+      <li>
+        <strong>==</strong> returns true if its two arguments are equal, false otherwise.
+        <strong>!=</strong> is the opposite, returning true if its two arguments are not equal.
+      </li>
+      <li>
+        <strong>&lt;</strong>, <strong>&gt;</strong>, <strong>&lt;=</strong>, and <strong>&gt;=</strong>
+        are inequalities that compare two numbers and return true or false.
+      </li>
+      <li>
+        <strong>NOT</strong> takes a boolean and returns its opposite: it returns <em>true</em> if its argument is
+        <em>false</em>, it returns <em>false</em> if its argument is <em>true</em>.
+      </li>
+      <li>
+        <strong>AND</strong>, <strong>OR</strong>, and <strong>XOR</strong> take two boolean arguments and return
+        a boolean. AND returns <em>true</em> if both of its arguments are <em>true</em>, OR returns <em>true</em>
+        if at least one of its arguments is <em>true</em>, and XOR returns <em>true</em> if exactly one (i.e. one but not both)
+        of its arguments is <em>true</em>. If its condition to return <em>true</em> is not satisfied, that operator returns <em>false</em>.
+        (In case this comes up, I'll note here that if the first argument to AND returns false
+        or the first argument to OR returns true, the second argument won't be evaluated at all, since it wouldn't change what the AND or OR would return)
+      </li>
+      <li>
+        There are several math operators that take two arguments. <strong>+</strong> adds the two arguments,
+        <strong>-</strong> subtracts the two arguments, <strong>*</strong> multiplies the two arguments,
+        <strong>/</strong> divides the two arguments, and <strong>**</strong> is exponentiation.
+        <strong>%</strong> is the "modulo" operator, which returns the remainder of division: for example,
+        8 % 3 = 2, because when you divide 8 by 3, the remainder is 2.
+      </li>
+      <li>
+        <strong>abs</strong> returns the absolute value of a number. <strong>sign</strong> returns the sign of a number:
+        1 if the number is positive, -1 if the number is negative, 0 if the number is zero.
+      </li>
+      <li>
+        <strong>Random Integer</strong> and <strong>Random Decimal</strong> generate a random number between the two given
+        bounds (inclusive, so if the bounds are 0 and 10, Random Integer could generate any integer between 0 and 10, including
+        0 or 10). The number will always be an integer for Random Integer. For Random Decimal, it's a random real number,
+        which most likely <em>won't</em> be an integer (though, for those who know what this means, remember how floating point
+        precision works!).
+      </li>
+      <li>
+        <strong>Concatenate Strings</strong> takes two strings and combines them into a single string, so
+        "Hi" and "Yes" are put together into "HiYes".
+      </li>
+      <li>
+        <strong>Character of String</strong> returns a particular letter in a string. The index starts at 0, so
+        index 0 is the first letter of the string, index 1 is the second letter of the string, index 2 is the third
+        letter of the string, and so on.
+      </li>
+      <li>
+        <strong>Slice of String</strong> is similar to Character of String, but instead of just returning a single
+        letter, it returns a string containing the letters between two indices. For example, if the left index is 1
+        and the right index is 4, then it returns a string containing the letters from the 2nd character in the string
+        up through the 5th character in the string. (Unlike some programming languages, both the left index and the right
+        index themselves are included)
+      </li>
+      <li>
+        <strong>Repeat While</strong> is in this category because I didn't know where else to put it. A Repeat While
+        script takes two scripting rules as argument, a <em>while</em> script (which returns a boolean) and a
+        <em>repeat</em> script (which may do anything). When the Repeat While script is run, it checks the <em>while</em>
+        script, and if that returns true, it runs the <em>repeat</em> script. It continues doing this, repeating the
+        scripts over and over again until the <em>while</em> script returns false, at which point it stops the loop.
+      </li>
+    </ul>
+
+    <h2>Arrays</h2>
+    <p>For those familiar with programming, you may skip the following explanation paragraph on what arrays are, they work how they do in most programming languages.</p>
+    <p>
+      An <strong>array</strong> is a list of things. In the context of this program, those things may be numbers, booleans, strings,
+      objects, types, or other arrays that themselves contain things. We call the things inside arrays <em>elements</em> of that array.
+      Arrays are ordered: each element of the array has an index number. This index number starts at 0, so the first element of the array has index number 0,
+      the second element of the array has index number 1, the third element of the array has index number 2, and so on.
+    </p>
+    <p>
+      The scripting rule types include some types for working with arrays, including creating new ones, adding elements to them and
+      removing elements from them, and finding elements within them. This program generally tries to make sure scripts that return
+      particular types can't be placed in scripts that aren't looking for an argument of that type, but currently there is not
+      any type safety included for arguments of arrays, so make sure you know what you're doing when you use arrays.
+    </p>
+    <ul>
+      <li>
+        <strong>Create an Array</strong> creates a new array. Its arguments are the things that that array will contain.
+        Creating new arrays is probably only useful if you're going to save that array as a variable (more on those below)
+        to use again later.
+      </li>
+      <li>
+        <strong>Array Length</strong> takes an array as its argument and returns a number, that being the amount of 
+        elements that array contains.
+      </li>
+      <li>
+        <strong>Add to Array</strong> adds a new element at the end of an array, and <strong>Remove Last Element of Array</strong>
+        removes the element at the end of an array from that array.
+      </li>
+      <li>
+        <strong>Array Element at Index</strong> takes an array and a number and returns the element of that array with that index
+        number: for example, if the number is 2, the scripting rule returns the third element of that array.
+      </li>
+      <li>
+        <strong>Array Index of Element</strong> searches an array for a particular element. If that array does contain
+        that element, it returns the index number of that element in that array (if that element appears in that array
+        multiple times, it returns its lowest index number). If that array does not contain that element, it returns -1.
+      </li>
+      <li>
+        <strong>Slice of Array</strong> returns an array containing the elements of the given array between two
+        index numbers. For example, if the left index is 1 and the right index is 4, then it returns an array containing the
+        elements from the 2nd element in the array up through the 5th element in the array.
+        (Unlike some programming languages, both the left index and the right index themselves are included)
+      </li>
+    </ul>
+
+    <h1>Other Properties of Scripting Rules</h1>
+
+    <h2>Triggers</h2>
+    <p>An outermost scripting rule has a <em>trigger</em>, which determines when that rule will be run, and what the caller is considered to be when it does run.</p>
+    <ul>
+      <li>
+        <strong>When this piece moves</strong>: This script runs when the piece that owns the script moves, i.e. when
+        a Move Piece or Move Piece to Coordinates script is run by that piece. The X Coordinate and Y Coordinate
+        of the piece during a script with this trigger will be considered to be that piece's coordinates after moving,
+        not its coordinates before moving.
+      </li>
+      <li>
+        <strong>When this piece lands on a tile</strong>: Similar to When this piece moves, but it explicitly triggers
+        <em>after</em> When this piece moves scripts, since the act of the piece landing comes after the act of it moving.
+      </li>
+      <li>
+        <strong>When this tile is landed on</strong>: Triggers when a piece lands on the tile that owns this script.
+      </li>
+      <li>
+        <strong>When this piece is removed</strong>: This script runs when the piece that owns the script is removed, i.e. when
+        a Remove Piece script is run by that piece.
+      </li>
+      <li>
+        <strong>Start Game</strong>: This script runs when the game starts. For this trigger type
+        and the next few trigger types, global scripts run first, then piece scripts (in order of object ID, I think),
+        then tile scripts (in board position reading order, i.e. left to right, top to bottom).
+      </li>
+      <li>
+        <strong>End Turn</strong> and <strong>Start Turn</strong> scripts run during the transition between turns.
+        End Turn scripts run before the player turn switches, Start Turn scripts run after the player turn switches.
+      </li>
+      <li>
+        <strong>End Game</strong> scripts run when the game ends, after the rest of the scripts on the game-ending
+        turn have finished.
+      </li>
+      <li>
+        <strong>Object Clicked</strong> scripts run when the piece or tile that owns that scripting rule is clicked.
+      </li>
+    </ul>
+    <p>The <strong>Argument</strong> scripting rule type lets you access data relating to the event that triggered the rule.</p>
+    <ul>
+      <li>
+        If the trigger is "When this piece moves", the Argument options are the amount that the X coordinate of that piece
+        changed by and the amount that the Y coordinate of that piece changed by.
+      </li>
+      <li>
+        If the trigger is "When this piece lands on a tile", the Argument option is the tile that the piece landed on.
+      </li>
+      <li>
+        If the trigger is "When this tile is landed on", the Argument option is the piece that landed on the tile.
+      </li>
+      <li>
+        In all other cases, the relevant data can already be accessed by the scripting rule, so the Argument type
+        has no options.
+      </li>
+    </ul>
+
+    <h2>Variables</h2>
+    <p>
+      A <strong>variable</strong> is a piece of data (a number, boolean, string, object, type, array, etc.) that is saved
+      somewhere so it can be reused later (you'll typically want to be using Run Multiple Scripts scripts when working with these).
+      In this program, a variable has a name and a value; the name is always a string of letters, the value can be any of the types
+      of things mentioned previously. A variable's name is permanent, but its value can be changed.
+    </p>
+    <p>
+      There are three places variables can be found:
+    </p>
+    <ul>
+      <li>
+        Within a scripting rule. A variable exists across an entire scripting rule, i.e. starting from the outermost rule
+        and going all the way down (it's the same variable across all the nested rules, not separate copies of it). Variables
+        of scripting rules only exist while that rule is running and are discarded once the rule finishes.
+      </li>
+      <li>
+        Within an object (a piece or tile). The game creator lets you set global variables that a piece or tile starts with on
+        a per-type basis, but once the game starts each piece or tile has its own copy of that variable which can have its
+        value changed independently.
+      </li>
+      <li>
+        As a global variable that can be accessed by any scripting rule anywhere in the game. The game creator
+        lets you set global variables that exist at the start of the game as numbers, booleans, or strings, but
+        scripts can let you change them into other types as well.
+      </li>
+    </ul>
+    <p>
+      The <strong>Return Variable of Rule</strong>, <strong>Return Variable of Object</strong>,
+      and <strong>Return Global Variable</strong> scripting rule types take a string as their argument and return
+      the value of the variable in that location with that string as its name.
+    </p>
+    <p>
+      The <strong>Edit Variable of Rule</strong>, <strong>Edit Variable of Object</strong>,
+      and <strong>Edit Global Variable</strong> scripting rule types take a string and a value as arguments, and
+      they take the variable in that location with the argument string as its name and change its value to the argument
+      value. If that rule/object/the global variables doesn't/don't already have a variable with that name, a variable with
+      that name is created with that value.
+    </p>
+    <p>
+      This is probably a good place to note that, if a scripting rule ever tries to access some value that's not defined
+      (a Return Variable script on a variable name that hasn't been edited into existence yet, Array Element at Index on
+      an index after the array's end, reporters like coordinates when run in a global script rather than on an object,
+      Argument script called when the trigger type has no arguments, etc.) or asks an object to do something it can't do
+      (such as Remove Piece called by something that's not a piece / piece type),
+      the move is declared invalid, as if the top-level script had returned false.
+    </p>
+
+    <h2>Buttons</h2>
+    <p>
+      Unlike pieces and tiles, buttons don't have types, they exist as independent entities. A button has two
+      arrays of rules: its click scripts and its visibility rules. A button is only visible (and thus able to be clicked)
+      if, at the current moment in the game, all of its visibility rules do not return false when run. When a button is
+      clicked, all of its click scripts are run.
+    </p>
+
+    <!-- <p class="iceberg-regular" style="font-size: 1.4rem; margin-top: 60px;">Ready to start? Hit <strong>Create</strong> and build your game, now!</p> -->
+    <div class="home-cta-wrap">
+        <button onclick="location.href='help.html'" class="home-cta-btn">← Back to Main Help Screen</button>
+      </div>
+        
+</div>
+</body>
+</html>

@@ -1,0 +1,3420 @@
+{
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "board": {
+        "boardShape": "Square",
+        "width": 8,
+        "height": 8,
+        "containerWidth": 50.065104166666664,
+        "containerHeight": 92.43458315080795,
+        "containerTop": 1.3912599949189448,
+        "containerLeft": 24.713542064030968,
+        "borderColor": "rgba(0, 0, 0, 0.9)",
+        "borderWidth": "2px",
+        "backgroundColor": "rgba(255, 255, 255, 0.9)",
+        "tileArray": [
+            [
+                {
+                    "objectID": 0,
+                    "xCoordinate": 0,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 1,
+                    "xCoordinate": 1,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 2,
+                    "xCoordinate": 2,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 3,
+                    "xCoordinate": 3,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 4,
+                    "xCoordinate": 4,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 5,
+                    "xCoordinate": 5,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 6,
+                    "xCoordinate": 6,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 7,
+                    "xCoordinate": 7,
+                    "yCoordinate": 0,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 8,
+                    "xCoordinate": 0,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 9,
+                    "xCoordinate": 1,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 10,
+                    "xCoordinate": 2,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 11,
+                    "xCoordinate": 3,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 12,
+                    "xCoordinate": 4,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 13,
+                    "xCoordinate": 5,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 14,
+                    "xCoordinate": 6,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 15,
+                    "xCoordinate": 7,
+                    "yCoordinate": 1,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 16,
+                    "xCoordinate": 0,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 17,
+                    "xCoordinate": 1,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 18,
+                    "xCoordinate": 2,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 19,
+                    "xCoordinate": 3,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 20,
+                    "xCoordinate": 4,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 21,
+                    "xCoordinate": 5,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 22,
+                    "xCoordinate": 6,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 23,
+                    "xCoordinate": 7,
+                    "yCoordinate": 2,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 24,
+                    "xCoordinate": 0,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 25,
+                    "xCoordinate": 1,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 26,
+                    "xCoordinate": 2,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 27,
+                    "xCoordinate": 3,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 28,
+                    "xCoordinate": 4,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 29,
+                    "xCoordinate": 5,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 30,
+                    "xCoordinate": 6,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 31,
+                    "xCoordinate": 7,
+                    "yCoordinate": 3,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 32,
+                    "xCoordinate": 0,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 33,
+                    "xCoordinate": 1,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 34,
+                    "xCoordinate": 2,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 35,
+                    "xCoordinate": 3,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 36,
+                    "xCoordinate": 4,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 37,
+                    "xCoordinate": 5,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 38,
+                    "xCoordinate": 6,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 39,
+                    "xCoordinate": 7,
+                    "yCoordinate": 4,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 40,
+                    "xCoordinate": 0,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 41,
+                    "xCoordinate": 1,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 42,
+                    "xCoordinate": 2,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 43,
+                    "xCoordinate": 3,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 44,
+                    "xCoordinate": 4,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 45,
+                    "xCoordinate": 5,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 46,
+                    "xCoordinate": 6,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 47,
+                    "xCoordinate": 7,
+                    "yCoordinate": 5,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 48,
+                    "xCoordinate": 0,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 49,
+                    "xCoordinate": 1,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 50,
+                    "xCoordinate": 2,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 51,
+                    "xCoordinate": 3,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 52,
+                    "xCoordinate": 4,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 53,
+                    "xCoordinate": 5,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 54,
+                    "xCoordinate": 6,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 55,
+                    "xCoordinate": 7,
+                    "yCoordinate": 6,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ],
+            [
+                {
+                    "objectID": 56,
+                    "xCoordinate": 0,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 57,
+                    "xCoordinate": 1,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 58,
+                    "xCoordinate": 2,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 59,
+                    "xCoordinate": 3,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 60,
+                    "xCoordinate": 4,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 61,
+                    "xCoordinate": 5,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 62,
+                    "xCoordinate": 6,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#996448",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                },
+                {
+                    "objectID": 63,
+                    "xCoordinate": 7,
+                    "yCoordinate": 7,
+                    "playerOwnerID": -1,
+                    "enabled": true,
+                    "publicVars": [],
+                    "sprite": {
+                        "fillColor": "#e5a380",
+                        "text": "",
+                        "textColor": "#000000",
+                        "imageName": null,
+                        "imageColor": "#000000"
+                    },
+                    "types": [
+                        7
+                    ]
+                }
+            ]
+        ]
+    },
+    "pieces": [
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 64,
+            "xCoordinate": 0,
+            "yCoordinate": 7,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 3"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 65,
+            "xCoordinate": 2,
+            "yCoordinate": 7,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 6"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 66,
+            "xCoordinate": 4,
+            "yCoordinate": 7,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 9"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 67,
+            "xCoordinate": 6,
+            "yCoordinate": 7,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 12"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 68,
+            "xCoordinate": 1,
+            "yCoordinate": 6,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 2"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 69,
+            "xCoordinate": 3,
+            "yCoordinate": 6,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000000"
+            },
+            "name": "Red Regular Piece 5"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 70,
+            "xCoordinate": 5,
+            "yCoordinate": 6,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 8"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 71,
+            "xCoordinate": 7,
+            "yCoordinate": 6,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 11"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 72,
+            "xCoordinate": 0,
+            "yCoordinate": 5,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 1"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 73,
+            "xCoordinate": 2,
+            "yCoordinate": 5,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 4"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 74,
+            "xCoordinate": 4,
+            "yCoordinate": 5,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 7"
+        },
+        {
+            "types": [
+                0,
+                2,
+                5,
+                6
+            ],
+            "objectID": 75,
+            "xCoordinate": 6,
+            "yCoordinate": 5,
+            "playerOwnerID": 1,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#ff0000",
+                "strokeColor": "#000",
+                "text": "●",
+                "textColor": "#000"
+            },
+            "name": "Red Regular Piece 10"
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 76,
+            "xCoordinate": 1,
+            "yCoordinate": 0,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 77,
+            "xCoordinate": 3,
+            "yCoordinate": 0,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#d60505"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 78,
+            "xCoordinate": 5,
+            "yCoordinate": 0,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 79,
+            "xCoordinate": 7,
+            "yCoordinate": 0,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 80,
+            "xCoordinate": 0,
+            "yCoordinate": 1,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 81,
+            "xCoordinate": 2,
+            "yCoordinate": 1,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 82,
+            "xCoordinate": 4,
+            "yCoordinate": 1,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 83,
+            "xCoordinate": 6,
+            "yCoordinate": 1,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 84,
+            "xCoordinate": 1,
+            "yCoordinate": 2,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 85,
+            "xCoordinate": 3,
+            "yCoordinate": 2,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#f82a2a"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 86,
+            "xCoordinate": 5,
+            "yCoordinate": 2,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        },
+        {
+            "types": [
+                1,
+                3,
+                5,
+                6
+            ],
+            "objectID": 87,
+            "xCoordinate": 7,
+            "yCoordinate": 2,
+            "playerOwnerID": 2,
+            "sprite": {
+                "imageName": "circle",
+                "fillColor": "#000000",
+                "strokeColor": "#fff",
+                "text": "●",
+                "textColor": "#ff0000"
+            },
+            "name": ""
+        }
+    ],
+    "pieceTypes": [
+        {
+            "typeID": 0,
+            "typeName": "Red",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Object Clicked",
+                    "type": "==",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Player Turn",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                1
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        },
+        {
+            "typeID": 1,
+            "typeName": "Black",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Object Clicked",
+                    "type": "==",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Player Turn",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                2
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        },
+        {
+            "typeID": 2,
+            "typeName": "Regular Red",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Piece Moves",
+                    "type": "&&",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "<",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Argument",
+                                    "args": [
+                                        1
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        0
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                true
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                },
+                {
+                    "trigger": "Piece Lands on Tile",
+                    "type": "if-then-else",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "==",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Y Coordinate",
+                                    "args": [
+                                        null
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        0
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Return at End",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Remove Type",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Choose Piece Type",
+                                            "args": [
+                                                2
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Add Type",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Choose Piece Type",
+                                            "args": [
+                                                4
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                1
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Change Piece Sprite",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Create Piece Sprite",
+                                            "args": [
+                                                "king",
+                                                "#ff0000",
+                                                "#000000",
+                                                "",
+                                                "#050000"
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        true
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                true
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        },
+        {
+            "typeID": 3,
+            "typeName": "Regular Black",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Piece Moves",
+                    "type": "&&",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": ">",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Argument",
+                                    "args": [
+                                        1
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        0
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                true
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                },
+                {
+                    "trigger": "Piece Lands on Tile",
+                    "type": "if-then-else",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "==",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Y Coordinate",
+                                    "args": [
+                                        null
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        7
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Return at End",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "Remove Type",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Choose Piece Type",
+                                            "args": [
+                                                3
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Add Type",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Choose Piece Type",
+                                            "args": [
+                                                4
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                1
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Change Piece Sprite",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Create Piece Sprite",
+                                            "args": [
+                                                "king",
+                                                "#000000",
+                                                "#ffffff",
+                                                "",
+                                                "#ffffff"
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        true
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                true
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        },
+        {
+            "typeID": 4,
+            "typeName": "King",
+            "publicVars": [],
+            "scripts": []
+        },
+        {
+            "typeID": 5,
+            "typeName": "Checkers Piece",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Piece Moves",
+                    "type": "if-then-else",
+                    "args": [
+                        {
+                            "trigger": "Piece Moves",
+                            "type": "&&",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "==",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "abs",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Argument",
+                                                    "args": [
+                                                        0
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "abs",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Argument",
+                                                    "args": [
+                                                        1
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "!=",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "abs",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Argument",
+                                                    "args": [
+                                                        0
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                0
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "if-then-else",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "&&",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "==",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "abs",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Argument",
+                                                            "args": [
+                                                                0
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Value",
+                                                    "args": [
+                                                        1
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "==",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Turn Phase",
+                                                    "args": [],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Value",
+                                                    "args": [
+                                                        0
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Change Turn Phase",
+                                    "args": [
+                                        null
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "if-then-else",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "&&",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "==",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "abs",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Argument",
+                                                                    "args": [
+                                                                        0
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Value",
+                                                            "args": [
+                                                                2
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "==",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Array Length",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Pieces on Tile",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Tile at Coordinates",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "-",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "X Coordinate",
+                                                                                            "args": [
+                                                                                                null
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "/",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Argument",
+                                                                                                    "args": [
+                                                                                                        0
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        2
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                },
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "-",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "Y Coordinate",
+                                                                                            "args": [
+                                                                                                null
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "/",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Argument",
+                                                                                                    "args": [
+                                                                                                        1
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        2
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Value",
+                                                            "args": [
+                                                                1
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Return at End",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Edit Variable of Rule",
+                                                    "args": [
+                                                        "Jumped Piece",
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Array Element at Index",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Pieces on Tile",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Tile at Coordinates",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "-",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "X Coordinate",
+                                                                                            "args": [
+                                                                                                null
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "/",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Argument",
+                                                                                                    "args": [
+                                                                                                        0
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        2
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                },
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "-",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "Y Coordinate",
+                                                                                            "args": [
+                                                                                                null
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "/",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Argument",
+                                                                                                    "args": [
+                                                                                                        1
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        2
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                },
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Value",
+                                                                    "args": [
+                                                                        0
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "if-then-else",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "!=",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Array Element at Index",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Object Types",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Return Variable of Rule",
+                                                                                    "args": [
+                                                                                        "Jumped Piece"
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        },
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Value",
+                                                                            "args": [
+                                                                                0
+                                                                            ],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                },
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Array Element at Index",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Object Types",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Caller",
+                                                                                    "args": [],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        },
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Value",
+                                                                            "args": [
+                                                                                0
+                                                                            ],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Return at End",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Other Caller",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Return Variable of Rule",
+                                                                            "args": [
+                                                                                "Jumped Piece"
+                                                                            ],
+                                                                            "variables": []
+                                                                        },
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Remove Piece",
+                                                                            "args": [],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                },
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Change Turn Phase",
+                                                                    "args": [
+                                                                        1
+                                                                    ],
+                                                                    "variables": []
+                                                                },
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "if-then-else",
+                                                                    "args": [
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "==",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Player Turn",
+                                                                                    "args": [],
+                                                                                    "variables": []
+                                                                                },
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Value",
+                                                                                    "args": [
+                                                                                        1
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        },
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Return at End",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Edit Global Variable",
+                                                                                    "args": [
+                                                                                        "Black Pieces Remaining",
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "-",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Return Global Variable",
+                                                                                                    "args": [
+                                                                                                        "Black Pieces Remaining"
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        1
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                },
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "if-then-else",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "==",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Return Global Variable",
+                                                                                                    "args": [
+                                                                                                        "Black Pieces Remaining"
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        0
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "End Game",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        1
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "Value",
+                                                                                            "args": [
+                                                                                                true
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        },
+                                                                        {
+                                                                            "trigger": "None",
+                                                                            "type": "Return at End",
+                                                                            "args": [
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "Edit Global Variable",
+                                                                                    "args": [
+                                                                                        "Red Pieces Remaining",
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "-",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Return Global Variable",
+                                                                                                    "args": [
+                                                                                                        "Red Pieces Remaining"
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        1
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                },
+                                                                                {
+                                                                                    "trigger": "None",
+                                                                                    "type": "if-then-else",
+                                                                                    "args": [
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "==",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Return Global Variable",
+                                                                                                    "args": [
+                                                                                                        "Red Pieces Remaining"
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        0
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "End Game",
+                                                                                            "args": [
+                                                                                                {
+                                                                                                    "trigger": "None",
+                                                                                                    "type": "Value",
+                                                                                                    "args": [
+                                                                                                        2
+                                                                                                    ],
+                                                                                                    "variables": []
+                                                                                                }
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        },
+                                                                                        {
+                                                                                            "trigger": "None",
+                                                                                            "type": "Value",
+                                                                                            "args": [
+                                                                                                true
+                                                                                            ],
+                                                                                            "variables": []
+                                                                                        }
+                                                                                    ],
+                                                                                    "variables": []
+                                                                                }
+                                                                            ],
+                                                                            "variables": []
+                                                                        }
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Value",
+                                                            "args": [
+                                                                false
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                false
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                false
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        },
+        {
+            "typeID": 6,
+            "typeName": "Clickable Piece",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Object Clicked",
+                    "type": "Return at End",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "if-then-else",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "==",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Turn Phase",
+                                            "args": [],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                -1
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Change Turn Phase",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                0
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        true
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Clear Selected Objects",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Select Object",
+                            "args": [
+                                null
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                true
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        }
+    ],
+    "tileTypes": [
+        {
+            "typeID": 7,
+            "typeName": "Clickable Tile",
+            "publicVars": [],
+            "scripts": [
+                {
+                    "trigger": "Object Clicked",
+                    "type": "Return at End",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "if-then-else",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "==",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Turn Phase",
+                                            "args": [],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                -1
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Change Turn Phase",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                0
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        true
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "Object Clicked",
+                            "type": "if-then-else",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "&&",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "==",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Array Length",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Selected Objects",
+                                                            "args": [],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Value",
+                                                    "args": [
+                                                        1
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "==",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Array Length",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Pieces on Tile",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Caller",
+                                                                    "args": [],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Value",
+                                                    "args": [
+                                                        0
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Return at End",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Edit Variable of Rule",
+                                            "args": [
+                                                "Tile",
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Caller",
+                                                    "args": [],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Other Caller",
+                                            "args": [
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Array Element at Index",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Selected Objects",
+                                                            "args": [],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Value",
+                                                            "args": [
+                                                                0
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                },
+                                                {
+                                                    "trigger": "None",
+                                                    "type": "Move Piece to Coordinates",
+                                                    "args": [
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "X Coordinate",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Return Variable of Rule",
+                                                                    "args": [
+                                                                        "Tile"
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        },
+                                                        {
+                                                            "trigger": "None",
+                                                            "type": "Y Coordinate",
+                                                            "args": [
+                                                                {
+                                                                    "trigger": "None",
+                                                                    "type": "Return Variable of Rule",
+                                                                    "args": [
+                                                                        "Tile"
+                                                                    ],
+                                                                    "variables": []
+                                                                }
+                                                            ],
+                                                            "variables": []
+                                                        }
+                                                    ],
+                                                    "variables": []
+                                                }
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        false
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ]
+        }
+    ],
+    "buttons": [
+        {
+            "name": "Save Game",
+            "containerWidth": 23.307291666666664,
+            "containerHeight": 17.91808842615662,
+            "containerTop": 76.2158707200421,
+            "containerLeft": 75.32552083333334,
+            "borderColor": "black",
+            "borderWidth": "2px",
+            "backgroundColor": "white",
+            "clickScripts": [],
+            "visibleRules": [],
+            "sprite": {
+                "fillColor": "#e7eed6",
+                "text": "Save Game",
+                "textColor": "#192203",
+                "borderColor": "#000000",
+                "borderRadius": "5px"
+            },
+            "specialButtonType": "In-Progress Save Code"
+        },
+        {
+            "name": "End Turn",
+            "containerWidth": 23.567708333333336,
+            "containerHeight": 35.97838390331448,
+            "containerTop": 57.63744354248047,
+            "containerLeft": 0.51513671875,
+            "borderColor": "#ffffff",
+            "borderWidth": 0,
+            "backgroundColor": "#ffffff",
+            "clickScripts": [
+                {
+                    "trigger": "None",
+                    "type": "Change Turn Phase",
+                    "args": [
+                        null
+                    ],
+                    "variables": []
+                }
+            ],
+            "visibleRules": [
+                {
+                    "trigger": "None",
+                    "type": "==",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Turn Phase",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                1
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ],
+            "sprite": {
+                "fillColor": "#880000",
+                "text": "End Turn",
+                "textColor": "#ff8844",
+                "borderColor": "#ff8844",
+                "borderRadius": "5px"
+            },
+            "specialButtonType": null
+        },
+        {
+            "name": "Forfeit",
+            "containerWidth": 23.502604166666664,
+            "containerHeight": 36.26279800531697,
+            "containerTop": 57.87116114088175,
+            "containerLeft": 0.5859375,
+            "borderColor": "black",
+            "borderWidth": "2px",
+            "backgroundColor": "white",
+            "clickScripts": [
+                {
+                    "trigger": "None",
+                    "type": "Change Turn Phase",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                -1
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ],
+            "visibleRules": [
+                {
+                    "trigger": "None",
+                    "type": "==",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Turn Phase",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                0
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ],
+            "sprite": {
+                "fillColor": "#0f0f0f",
+                "text": "Forfeit Game",
+                "textColor": "#ca0000",
+                "borderColor": "#880000",
+                "borderRadius": "5px"
+            },
+            "specialButtonType": null
+        },
+        {
+            "name": "Forfeit Confirmation",
+            "containerWidth": 23.567708333333336,
+            "containerHeight": 36.689419158320696,
+            "containerTop": 57.87116114088175,
+            "containerLeft": 0.5208333333333333,
+            "borderColor": "black",
+            "borderWidth": "2px",
+            "backgroundColor": "white",
+            "clickScripts": [
+                {
+                    "trigger": "None",
+                    "type": "End Game",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "if-then-else",
+                            "args": [
+                                {
+                                    "trigger": "None",
+                                    "type": "==",
+                                    "args": [
+                                        {
+                                            "trigger": "None",
+                                            "type": "Player Turn",
+                                            "args": [],
+                                            "variables": []
+                                        },
+                                        {
+                                            "trigger": "None",
+                                            "type": "Value",
+                                            "args": [
+                                                1
+                                            ],
+                                            "variables": []
+                                        }
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        "2"
+                                    ],
+                                    "variables": []
+                                },
+                                {
+                                    "trigger": "None",
+                                    "type": "Value",
+                                    "args": [
+                                        "1"
+                                    ],
+                                    "variables": []
+                                }
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ],
+            "visibleRules": [
+                {
+                    "trigger": "None",
+                    "type": "==",
+                    "args": [
+                        {
+                            "trigger": "None",
+                            "type": "Turn Phase",
+                            "args": [],
+                            "variables": []
+                        },
+                        {
+                            "trigger": "None",
+                            "type": "Value",
+                            "args": [
+                                -1
+                            ],
+                            "variables": []
+                        }
+                    ],
+                    "variables": []
+                }
+            ],
+            "sprite": {
+                "fillColor": "#000000",
+                "text": "Are you sure?",
+                "textColor": "#ca0000",
+                "borderColor": "#880000",
+                "borderRadius": "5px"
+            },
+            "specialButtonType": null
+        }
+    ],
+    "globalVariables": [
+        {
+            "name": "Red Pieces Remaining",
+            "value": 12,
+            "display": false
+        },
+        {
+            "name": "Black Pieces Remaining",
+            "value": 12,
+            "display": false
+        }
+    ],
+    "globalScripts": [],
+    "title": "Checkers",
+    "descriptionParagraphs": [
+        "A version of Checkers created as an example game in BlueTile.",
+        "Since you can capture multiple times in a turn, you'll need to hit the \"End Turn\" button to end your turn once you capture a piece. The game won't detect for you if all of your pieces are unable to move, so if you're caught in such a situation, there's a \"Forfeit Game\" button."
+    ],
+    "inventoryLayout": {
+        "containerWidth": 24.674479166666664,
+        "containerHeight": 54.891921686479805,
+        "containerTop": 0,
+        "containerLeft": 0,
+        "borderColor": "rgba(0, 0, 0, 0.9)",
+        "borderWidth": "2px",
+        "backgroundColor": "rgba(255, 255, 255, 0.9)"
+    },
+    "globalLayout": {
+        "containerWidth": 23.828125,
+        "containerHeight": 55.17633578848229,
+        "containerTop": 0.8275463183720907,
+        "containerLeft": 0.3515625,
+        "borderColor": "rgba(0, 0, 0, 0.9)",
+        "borderWidth": "2px",
+        "backgroundColor": "rgba(255, 255, 255, 0.9)",
+        "displayVariables": [
+            "Red Pieces Remaining",
+            "Black Pieces Remaining"
+        ]
+    },
+    "titledescLayout": {
+        "containerWidth": 23.4375,
+        "containerHeight": 73.37883831664139,
+        "containerTop": 1.7041150731402006,
+        "containerLeft": 75.13020833333334,
+        "borderColor": "rgba(0, 0, 0, 0.9)",
+        "borderWidth": "2px",
+        "backgroundColor": "rgba(255, 255, 255, 0.9)"
+    }
+}
